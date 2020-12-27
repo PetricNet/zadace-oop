@@ -34,7 +34,7 @@ int main() {
         sorted.push_back(p);
       }
       std::sort(sorted.begin(), sorted.end(), compare);
-      for (auto &[seq, value] : sorted) {
+      for (auto& [seq, value] : sorted) {
         std::cout << seq << ": " << value << std::endl;
       }
       break;
